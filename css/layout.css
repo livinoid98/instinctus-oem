@@ -1,0 +1,60 @@
+header {
+  width: 100%;
+  height: 918px;
+  background-image: url("../img/main_img.png");
+  background-position: center;
+  background-size: cover;
+}
+header .header-black {
+  height: 918px;
+  background-color: #000;
+  opacity: 0.5;
+}
+header .header-black .nav-bar {
+  height: 918px;
+  display: flex;
+  padding-top: 72px;
+  position: relative;
+}
+header .header-black .nav-bar .logo {
+  width: 160px;
+  margin-left: 88px;
+}
+header .header-black .nav-bar .logo img {
+  width: 100%;
+}
+header .header-black .nav-bar nav ul {
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+header .header-black .nav-bar nav ul li {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 88px;
+  word-break: keep-all;
+}
+header .header-black .nav-bar nav ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+header .header-black .nav-bar .main-title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header .header-black .nav-bar .main-title h3 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #fff;
+}
+header .header-black .nav-bar .main-title p {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+}/*# sourceMappingURL=layout.css.map */
